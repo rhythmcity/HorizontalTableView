@@ -32,20 +32,20 @@
     myTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 568, 320) style:UITableViewStylePlain];
     myTableView.delegate = self;
     myTableView.dataSource = self;
-    myTableView.rowHeight = 320.0;
+    myTableView.rowHeight = 320.0;   //设置行高
     myTableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     
-    CGAffineTransform transform = CGAffineTransformMakeRotation(-M_PI_2);
+    CGAffineTransform transform = CGAffineTransformMakeRotation(-M_PI_2);  // 逆时针旋转 90 度 使tableview 从左向右滑动
     myTableView.transform = transform;
     CGRect contentRect = CGRectMake(0, 90, 320, 300);
     myTableView.frame = contentRect;
-    myTableView.pagingEnabled = YES;
+    myTableView.pagingEnabled = YES;    //分页滑动
      [self.view addSubview:myTableView];
 }
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
 
-    CGAffineTransform transform  = CGAffineTransformMakeRotation(M_PI_2);
+    CGAffineTransform transform  = CGAffineTransformMakeRotation(M_PI_2);  //顺时针旋转  不然cell 的方向不正
     cell.transform = transform;
 }
 
