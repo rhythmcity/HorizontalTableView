@@ -19,6 +19,7 @@
 		BA524A8A19821270006973F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA524A7219821270006973F4 /* UIKit.framework */; };
 		BA524A9219821270006973F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA524A9019821270006973F4 /* InfoPlist.strings */; };
 		BA524A9419821270006973F4 /* HorizontalTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA524A9319821270006973F4 /* HorizontalTableViewTests.m */; };
+		BA524A9F198212C2006973F4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA524A9E198212C2006973F4 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		BA524A8F19821270006973F4 /* HorizontalTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HorizontalTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		BA524A9119821270006973F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA524A9319821270006973F4 /* HorizontalTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalTableViewTests.m; sourceTree = "<group>"; };
+		BA524A9D198212C2006973F4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BA524A9E198212C2006973F4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				BA524A7D19821270006973F4 /* AppDelegate.h */,
 				BA524A7E19821270006973F4 /* AppDelegate.m */,
+				BA524A9D198212C2006973F4 /* RootViewController.h */,
+				BA524A9E198212C2006973F4 /* RootViewController.m */,
 				BA524A8019821270006973F4 /* Images.xcassets */,
 				BA524A7519821270006973F4 /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			files = (
 				BA524A7F19821270006973F4 /* AppDelegate.m in Sources */,
 				BA524A7B19821270006973F4 /* main.m in Sources */,
+				BA524A9F198212C2006973F4 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
