@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC068EB9-C5B7-473A-8B34-408913FEA8CA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HorizontalTableView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E256446C-84C4-436E-9DBA-8D0C202561DA</key>
+		<string>https://github.com/rhythmcity/HorizontalTableView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HorizontalTableView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E256446C-84C4-436E-9DBA-8D0C202561DA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rhythmcity/HorizontalTableView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E256446C-84C4-436E-9DBA-8D0C202561DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E256446C-84C4-436E-9DBA-8D0C202561DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HorizontalTableView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

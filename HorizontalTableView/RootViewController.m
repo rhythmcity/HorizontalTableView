@@ -70,7 +70,8 @@
                                        reuseIdentifier: SimpleTableIdentifier];
     }
     cell.backgroundColor = [UIColor whiteColor];
-
+    CGAffineTransform transform  = CGAffineTransformMakeRotation(M_PI_2);  //顺时针旋转  不然cell 的方向不正
+    cell.transform = transform;
     cell.textLabel.text =[NSString stringWithFormat:@"%d" , indexPath.row];
     NSLog(@"%@",cell);
     return cell;
